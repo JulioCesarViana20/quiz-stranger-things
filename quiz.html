@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz da galera do mal</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div>
+        <img src="netflix.png" alt="logo da Neflix">
+    </div>
+
+    <div id="quiz-start">
+        <h1>Bem vindo ao Quiz da Netflix</h1>
+        <button id="start-btn">Que comece o jogo!</button>
+
+    </div>
+
+    <div  id="quiz-question" style="display : none;">
+        <h2> id=<question-text>Em que ano foi lançada a série Stranger Things?</h2>
+            <ul id="options">  
+                <li><button class="option-btn">2016</button></li>
+                <li><button class="option-btn">2014</button></li>
+                <li><button class="option-btn">2018</button></li>
+
+            </ul>
+            <button id="next-btn" style="display: none;">próximo desafio!</button>
+
+    </div>
+
+    
+    <div id="quiz-result" style="display: none;">
+        <h2>Resultado Final</h2>
+        <!-- Aqui será o gif que mudará conforme o resultado -->
+        <div id="gif-container"></div>
+        <p id="score"></p>
+        <button id="restart-btn">Reiniciar Quiz</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

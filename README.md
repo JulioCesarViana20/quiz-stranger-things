@@ -21,7 +21,9 @@ Um quiz temático simples e rápido sobre a série **Stranger Things**, feito co
 ## 🔗 Deploy
 
 Acesse e jogue agora:
-[https://JulioCesarViana20.github.io/quiz-stranger-things/](https://JulioCesarViana20.github.io/quiz-stranger-things/) 
+(https://github.com/JulioCesarViana20)
+
+lembre de baixar as pastas para jogar!
 
 ---
 
